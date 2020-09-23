@@ -24,6 +24,6 @@ function submitData(formData) {
       console.log(object);
     })
     .catch(function(error) {
-      alert("There has been an error.")
+      alert("There has been an error.");
     })
 }
