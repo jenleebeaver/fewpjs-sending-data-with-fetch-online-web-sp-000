@@ -27,4 +27,5 @@ function submitData(formData) {
       alert("There has been an error.");
       console.log(error.message);
     });
+    return fetch 
 }
