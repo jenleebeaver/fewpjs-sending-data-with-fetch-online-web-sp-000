@@ -12,4 +12,4 @@ let configObj = {
     "application/json",
   },
   body: JSON.stringify
-}
+};
