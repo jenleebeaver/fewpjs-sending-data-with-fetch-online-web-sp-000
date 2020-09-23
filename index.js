@@ -6,12 +6,12 @@ function submitData(formData) {
     email: "jen.lee.beaver@gmail.com"
   };
 
-let configObj = {
-  method: "POST",
-  headers: {
-    "Content-Type":
-    "application/json",
-  },
-  body: JSON.stringify
-};
+  let configObj = {
+    method: "POST",
+    headers: {
+      "Content-Type":
+      "application/json",
+    },
+    body: JSON.stringify
+  };
 }
