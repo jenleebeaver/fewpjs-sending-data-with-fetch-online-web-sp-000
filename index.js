@@ -23,5 +23,7 @@ function submitData(formData) {
     .then(function(object) {
       console.log(object);
     })
-    .catch(function(error))
+    .catch(function(error) {
+      alert("There has been an error.")
+    })
 }
