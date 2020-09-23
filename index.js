@@ -20,4 +20,7 @@ function submitData(formData) {
     .then(function(response) {
       return response.json();
     })
+    .then(function(object) {
+      console.log(object);
+    })
 }
