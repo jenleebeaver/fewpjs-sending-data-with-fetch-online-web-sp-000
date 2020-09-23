@@ -15,4 +15,6 @@ function submitData(formData) {
     },
     body: JSON.stringify
   };
+
+  fetch("http://localhost:3000/users")
 }
